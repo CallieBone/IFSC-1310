@@ -1,0 +1,78 @@
+html{
+    box sizing:border-box;
+  }
+   *,
+    *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /* ----- Global Styles ----- */
+  
+  body{
+    font-family: 'Oswald', sans-serif;
+    margin:0;
+  }
+  
+  header.primary{
+    background-color:#56D185;
+    color: #ffffff;
+    text-shadow: 1px 1px 20px #000000;
+    text-align:center;
+    padding:40px;
+   /*long form*/
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    /* T, R, B, L */
+    padding: 20px 40px 20px 40px;
+    /*Two Value Top/Bottom / L/R */
+    padding: 20px 40px;
+  }
+  
+  header.primary h1{
+    background-color:pink;
+    font-size:2.4rem;
+    margin:20px 0 10px;
+    color: #fff;
+  }
+  
+  header.primary h1 a{
+    color:#ffffff;
+    text-decoration:none;
+  }
+  
+  header.primary h2{
+    font-size:1.4em;
+    margin:0;
+  }
+  
+  header.primary nav{
+    max-width:900px;
+    margin: 20px auto;
+  }
+  
+  header.primary nav ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around
+  }
+  
+  header.primary nav ul li{
+    list-style-type:none
+  }
+  
+  header.primary nav ul li a{
+    color:#ffffff;
+    text-decoration:none;
+    background-color:#000000;
+    background-color:rgba(0,0,0,.4);
+    padding:5px 10px;
+    border:1px solid #c0c0c0;
+    border-radius:20px;
+  }
+  
+  header.primary nav ul li a:hover{
+    background-color:rgba(0,0,0,18);
+  }
