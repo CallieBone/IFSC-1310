@@ -1,54 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.container {
+  max-width: 80vw;
+  margin: 40px auto;
+}
 header.primary {
-    background-color: #060062;
-    color: #ffffff;
-    text-shadow: 1px 1px 20px #000000;
-    text-align: center;
-    padding: 40px;
-    /*long form*/
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-left: 40px;
-    /* T, R, B, L */
-    padding: 20px 40px 20px 40px;
-    /*Two Value Top/Bottom / L/R */
-    padding: 20px 40px;
-  }
-  #practice h2 {
-    color: #000000;
-    border-bottom: 1px solid #c0c0c0;
-  }
-  
-  table {
-    border: 1px solid #c0c0c0;
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-  }
-  .5-col td {
-    width: 20%;
-  }
-  
-  caption {
-    font-weight: bold;
-    margin: 10px;
-  }
-  tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0);
-  }
-  
-  td:nth-child(n + 2) {
-    text-align: right;
-  }
-  
-  tr:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-  th {
-    background-color: #172635;
-    color: #fff;
-    padding: 10px;
-  }
-  td {
-    border: 1px solid #c0c0c0;
-    padding: 5px;
+  background-color: #060062;
+  color: #ffffff;
+  text-shadow: 1px 1px 20px #000000;
+  text-align: center;
+  padding: 40px;
+  /*long form*/
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  /* T, R, B, L */
+  padding: 20px 40px 20px 40px;
+  /*Two Value Top/Bottom / L/R */
+  padding: 20px 40px;
+}
+#practice h2 {
+  color: #000000;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+table {
+  border: 1px solid #c0c0c0;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+caption {
+  font-weight: bold;
+  margin: 10px;
+}
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+td:nth-child(n + 2) {
+  text-align: right;
+}
+
+tr:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+th {
+  background-color: #172635;
+  color: #fff;
+  padding: 10px;
+}
+td {
+  border: 1px solid #c0c0c0;
+  padding: 5px;}
