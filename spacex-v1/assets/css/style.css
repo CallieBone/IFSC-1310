@@ -6,6 +6,8 @@ html {
 *:after {
   box-sizing: inherit;
 }
+body{
+  font-family: 'Impact', sans-serif;}
 .container {
   max-width: 80vw;
   margin: 40px auto;
